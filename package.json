@@ -1,15 +1,20 @@
 {
-  "name": "storeapp",
+  "name": "my-store-app",
   "version": "1.0.0",
   "description": "app for store",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/username/repository.git"
+    "url": "https://github.com/1charmander1/storeApp"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "1charmander1",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase": "^7.21.1",
+    "vuefire": "^2.2.0-alpha.0"
+  }
 }
